@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: >20 hours spent in total
+
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -57,7 +57,7 @@ Time spent: >20 hours spent in total
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-    Copyright [2018] [Shofiqur Rahman]
+    Copyright [2018] [Tahsin Alam]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
