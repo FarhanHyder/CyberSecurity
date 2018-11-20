@@ -13,4 +13,5 @@ Each version of the site has been given two of the six vulnerabilities
 
 Green
 Vulnerability #1: Username Enumeration
+![week 8 user_enum](https://user-images.githubusercontent.com/36938994/48804481-bc41e800-ece2-11e8-8b22-747336d131dc.gif)
 
