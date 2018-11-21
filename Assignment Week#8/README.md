@@ -34,6 +34,9 @@ Vulnerability #4 : Cross-Site Request Forgery
 
 Staff database can be access and edit without a csrf token for the red target. While returns an invalid request for blue and green target for doing so. 
 
+![week 8 csrf](https://user-images.githubusercontent.com/36938994/48818556-cb905800-ed19-11e8-882b-4b59dbb66d46.gif)
+)
+
 ## Green
 
 Vulnerability #5: Username Enumeration
