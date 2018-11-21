@@ -20,25 +20,25 @@ This takes place by injecting sql code directly into URL of the  parameter. We i
 -- image
 
 ## Red 
-Vulnerability #1: Insecure Direct Object Reference
+Vulnerability #3: Insecure Direct Object Reference
 
 This vulnerability makes the hidden salesperson IDs accesiable and visible to others.While trying the same thing to green and blue target doesn't respond to anything. 
 
 -- image 
 
-Vulnerability # : Cross-Site Request Forgery
+Vulnerability #4 : Cross-Site Request Forgery
 
 Staff database can be access and edit without a csrf token for the red target. While returns an invalid request for blue and green target for doing so. 
 
 ## Green
 
-Vulnerability #3: Username Enumeration
+Vulnerability #5: Username Enumeration
 
 Login Error message text become bolds if the person's user name exist and unbold if it doesn't exist revealing important information to the attacker. 
 
 ![week 8 user_enum](https://user-images.githubusercontent.com/36938994/48804481-bc41e800-ece2-11e8-8b22-747336d131dc.gif)
 
-Vulnerability # 4: Cross-Site Scripting
+Vulnerability # 6: Cross-Site Scripting
 
 This takes a script and aplplies it to the feedback section while finish that and try to login agiain the feedack pops up with your name and the XSS runs. Trying it on blue target, the xss doesn't run but still shows the message. 
 XSS Script - <script>alert('Mallory found the XSS!');</script>
