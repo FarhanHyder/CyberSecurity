@@ -27,7 +27,8 @@ Vulnerability #3: Insecure Direct Object Reference
 
 This vulnerability makes the hidden salesperson IDs accesiable and visible to others.While trying the same thing to green and blue target doesn't respond to anything. 
 
--- image 
+![week 8 idor](https://user-images.githubusercontent.com/36938994/48818511-9dab1380-ed19-11e8-84aa-70b6f41d1c38.gif)
+
 
 Vulnerability #4 : Cross-Site Request Forgery
 
