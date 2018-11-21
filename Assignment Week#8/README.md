@@ -11,20 +11,24 @@ The six possible exploits are:
 
 Each version of the site has been given two of the six vulnerabilities
 
-## Red 
-Vulnerability #1: Insecure Direct Object Reference
-
-This makes the hidden salesperson IDs accesiable and visible to others.While trying the same thing to green and blue target doesn't respond to anything. 
-
--- image 
-
 ## Blue
 
-Vulnerability #2 : Sql Injection
+Vulnerability #1 : Sql Injection
 
 This takes place by injecting sql code directly into URL of the  parameter. We insert ' OR SLEEP(5)=0--' after thet php id which makes the page loading for a few seconds and not reponsive, then returning to the same page. We tried it for green target which didn't work and took us to the home page of salesperson. 
 
 -- image
+
+## Red 
+Vulnerability #1: Insecure Direct Object Reference
+
+This vulnerability makes the hidden salesperson IDs accesiable and visible to others.While trying the same thing to green and blue target doesn't respond to anything. 
+
+-- image 
+
+Vulnerability # : Cross-Site Request Forgery
+
+Staff database can be access and edit without a csrf token for the red target. While returns an invalid request for blue and green target for doing so. 
 
 ## Green
 
