@@ -66,4 +66,5 @@ The Green and red site works perfectly for the database query. The user inject S
 
 ![week 8 bonus_sqli](https://user-images.githubusercontent.com/36938994/48876542-96910d80-edcc-11e8-9b0e-a188f1c645ae.gif)
 
+GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
