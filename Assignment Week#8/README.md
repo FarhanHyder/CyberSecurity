@@ -24,6 +24,9 @@ Vulnerability #2: Session Hijacking/Fixation
 
 This vulnerabiility lets you log back into the site without having your login info. Just changing the session id from previous session (using previous session's id) would let you log in and letting the attacker to access your useful info.only works for the blue target.
 
+![week 8 session_id](https://user-images.githubusercontent.com/36938994/48876517-76f9e500-edcc-11e8-84f1-0b6d84c9cb89.gif)
+
+
 
 ## Red 
 Vulnerability #3: Insecure Direct Object Reference
@@ -60,5 +63,7 @@ XSS Script - <script>alert('Mallory found the XSS!');</script>
 ## Build on Objective #3 (SQL Injection)
 
 The Green and red site works perfectly for the database query. The user inject SQL code into the sales person page by requesting  salesperson.php?id=?' OR '1=1' which works for the Green and Red but failed when tried for the blue site.
+
+![week 8 bonus_sqli](https://user-images.githubusercontent.com/36938994/48876542-96910d80-edcc-11e8-9b0e-a188f1c645ae.gif)
 
 
