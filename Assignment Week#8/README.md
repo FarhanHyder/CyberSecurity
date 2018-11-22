@@ -20,6 +20,9 @@ This takes place by injecting sql code directly into URL of the  parameter. We i
 
 ![week 8 sql_injection](https://user-images.githubusercontent.com/36938994/48818423-42792100-ed19-11e8-86dc-40f84cfbc87c.gif)
 
+Vulnerability #2: Session Hijacking/Fixation
+
+This vulnerabiility lets you log back into the site without having your login info. Just changing the session id from previous session (using previous session's id) would let you log in and letting the attacker to access your useful info.only works for the blue target.
 
 
 ## Red 
@@ -51,5 +54,11 @@ This takes a script and aplplies it to the feedback section while finish that an
 XSS Script - <script>alert('Mallory found the XSS!');</script>
 
 ![week 8 css](https://user-images.githubusercontent.com/36938994/48818618-fd092380-ed19-11e8-94ee-9f569292bc58.gif)
+
+## Bonus
+
+## Build on Objective #3 (SQL Injection)
+
+The Green and red site works perfectly for the database query. The user inject SQL code into the sales person page by requesting  salesperson.php?id=?' OR '1=1' which works for the Green and Red but failed when tried for the blue site.
 
 
