@@ -53,7 +53,7 @@ Login Error message text become bolds if the person's user name exist and unbold
 
 Vulnerability # 6: Cross-Site Scripting
 
-This takes a script and aplplies it to the feedback section while finish that and try to login agiain the feedack pops up with your name and the XSS runs. Trying it on blue target, the xss doesn't run but still shows the message. 
+This takes a script and applies it to the feedback section while finish that and try to login again the feedack pops up with your name and the XSS runs. Trying it on blue target, the xss doesn't run but still shows the message. 
 XSS Script - <script>alert('Mallory found the XSS!');</script>
 
 ![week 8 css](https://user-images.githubusercontent.com/36938994/48818618-fd092380-ed19-11e8-94ee-9f569292bc58.gif)
