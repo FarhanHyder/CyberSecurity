@@ -10,6 +10,9 @@
 
 ## A summary of the data collected: number of attacks, number of malware samples, etc.
 
+![data_collected](https://user-images.githubusercontent.com/36938994/49345454-0b790880-f653-11e8-8dc9-98d05a5e42e9.gif)
+
+
 
 ## Any unresolved questions raised by the data collected
  - No
